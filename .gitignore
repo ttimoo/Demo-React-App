@@ -1,0 +1,30 @@
+# vim
+*.swp
+
+# OS X
+.DS_Store
+
+# Logs
+*.log
+*/test-results.xml
+
+# Node modules
+node_modules
+
+# Front-End Cache
+.babel-cache
+
+# Generated files
+dist
+doc
+
+npm-debug.log
+
+# Webstorm settings files
+.idea/
+
+# vagrant files
+.vagrant
+
+# Test results
+results
