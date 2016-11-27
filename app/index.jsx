@@ -7,10 +7,9 @@ import reduxThunk from 'redux-thunk';
 
 import App from 'components/app';
 import reducers from 'reducers';
-import Demo from 'containers/demo';
+import demo from 'containers/demo';
 
 const createStoreWithMiddleware = applyMiddleware(reduxThunk)(createStore);
-// TODO: Remove devtools from procution release
 const store = createStoreWithMiddleware(reducers, window.devToolsExtension && window.devToolsExtension());
 
 
